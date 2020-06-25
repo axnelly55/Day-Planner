@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+$(document).ready(function() {
     $(".saveBtn").on("click", function() {
         event.preventDefault();
         var description = $(this).siblings(".description").val();
@@ -10,7 +9,7 @@ $(document).ready(function(){
 
 });
 //this is where the variable is storing and looping through scheduler
-var theBigDay = [
+let theBigDay = [
     {
         id: "0",
         hour: "09",
